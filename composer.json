@@ -1,0 +1,22 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Jaspur\\SyncTranslations\\": "src/"
+    }
+  },
+  "description": "Sync and manage Laravel JSON translations with meta TODO tracking",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Jaspur\\SyncTranslations\\SyncTranslationsServiceProvider"
+      ]
+    }
+  },
+  "license": "MIT",
+  "name": "jaspur/sync-translations",
+  "require": {
+    "illuminate/support": "^12.0",
+    "php": "^8.4"
+  },
+  "type": "library"
+}
