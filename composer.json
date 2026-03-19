@@ -15,7 +15,7 @@
   "license": "MIT",
   "name": "jaspur/sync-translations",
   "require": {
-    "illuminate/support": "^12.0",
+    "illuminate/support": "^12.0|^13.0",
     "php": "^8.4"
   },
   "type": "library"
